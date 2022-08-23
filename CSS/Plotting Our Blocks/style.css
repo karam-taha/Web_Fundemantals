@@ -37,8 +37,8 @@ body {
 }
 .sub-content {
     display:inline-block;
-    height: 150px;
-    width: 150px;
+    height: 170px;
+    width: 170px;
     background-color: yellow;
     margin:15px;
     padding:130px;
@@ -50,9 +50,9 @@ body {
 }
 #advertisement {
     height: 170px;
-    width: 680px;
+    width: 740px;
     background-color: purple;
-    margin-top: -5px;
+    margin-top: 5px;
     padding-right: 600px;
     margin-left:30px;
     
