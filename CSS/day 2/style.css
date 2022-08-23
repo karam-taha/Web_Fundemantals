@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    text-align: center;
+    background-color: bisque;
+}
+
+h2 em{
+    color:aqua
+}
+
+/*#color-red{
+
+}*/
+
+.color-blue{
+    color: blue;
+}
+
+.color-green{
+    color: green;
+}
+
+.color-red{
+    color: red;
+}
+
+#emphasized {
+    font-style: italic;
+}

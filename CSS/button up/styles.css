@@ -1,0 +1,35 @@
+body {
+    margin: 45px;
+
+}
+.button1 {
+    border-radius: 45px;
+    border:2px solid mediumturquoise;
+    color: mediumturquoise;
+    margin: 15px;
+    padding:10px;
+    font-size: 35px;
+    width:300px;
+}
+.button2 {
+    border-radius: 50%;
+    border-width: 0px;
+    color:white;
+    background-color:limegreen;
+    font-size: 45px;
+    width: 55px;
+    margin: 10px;
+
+}
+.button3 {
+    border-radius: 0px;
+    border-width: 5px;
+    box-shadow: 7px 5px 3px black;
+    color: white;
+    background-color: rgb(10, 77, 223);
+    font-size: 45px;
+    margin: 15px;
+    padding:15px;
+    font-size: 45px;
+    width:400px;
+}
