@@ -1,0 +1,50 @@
+#page-1 {
+    border: 1px dotted red;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 800%;
+    background-color: gainsboro;
+}
+
+.header {
+    border: 1px dotted red;
+    width: 90%;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    border: 1px dotted red;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.main {
+    border: 1px dotted red;
+    width: 90%;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    margin: 10px;
+}
+
+.footer {
+    border: 1px dotted red;
+    width: 90%;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    margin: 10px;
+}
+
+
+
+
