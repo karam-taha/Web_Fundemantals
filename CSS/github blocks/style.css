@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.container {
+    background-color:gainsboro;
+    width:900px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    margin:10px;
+    
+}
+
+.box1 {
+    background-color: aqua;
+    width:780px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin:10px;
+    margin-top: 10px;
+}
+
+.box2 {
+    background-color: pink;
+    width:780px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin:10px;
+}
+
+.box3 {
+    background-color: white;
+    width:780px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin:10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h4 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+img {
+    height: 200px;
+}
