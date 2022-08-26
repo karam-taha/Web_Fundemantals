@@ -322,6 +322,10 @@ div.header3, div.header4{
     bottom: 25px;
 }
 
+h5{
+    color: #999;
+}
+
 .header6{
     position: relative;
     left: 800px;
