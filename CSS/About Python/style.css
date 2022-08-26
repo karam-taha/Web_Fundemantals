@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    width: 970px;
+    margin:0 auto;
+    background-color: rgb(36,80,118);
+}
+
+.nav{
+    background-color: rgb(70,126,173);
+    width:830px;
+    height: 50px;
+    position: relative;
+    left:70px;
+    bottom:15px;
+    border: 0px solid rgb(70,126,173);
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(31,32,32);
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    position: relative;
+    top:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar{
+    background-color: rgb(68,68,68);
+    border:0px solid rgb(68,68,68);
+    border-radius:10px;
+    box-shadow: 3px 3px rgb(31,32,32);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width:300px;
+}
+
+div.search-bar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:640px;
+}
+
+input{
+    height: 30px;
+    border: 2px solid rgb(192,192,192);
+}
+
+span.btn input{
+    color: white;
+    background-color: rgb(36,80,118);
+    width:40px;
+    position: relative;
+    left:10px;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+span.search input{
+    border-style: inset;
+}
+
+h6{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.text-size{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right:55px;
+    position: relative;
+    top:15px;
+}
+
+.text-size a{
+    color: rgb(212,178,0);
+}
+
+.middle{
+    color: black;
+    font-weight: 700;
+}
+
+ul{
+    list-style-type:square;
+    color:rgb(240,203,53);
+}
+
+.Side{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left:100px;
+    bottom:70px;
+}
+
+.Side a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    margin-bottom:20px;
+    width:200px;
+    
+}
+
+.Side-Links{
+    justify-content: space-between;
+    height: 180px;
+}
+
+ul.Side-Links{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:70px;
+}
+
+.page{
+    color:white;
+    width:654px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    left:250px;
+    bottom: 340px;
+    scale: 0.9;
+}
+
+.python-icon{
+    display: flex;
+    position: relative;
+    bottom:175px;
+    left:20px;
+
+}
+
+img{
+    height:100px;
+}
