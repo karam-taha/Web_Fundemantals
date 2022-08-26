@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     padding: 5px;
 }
@@ -38,4 +39,46 @@ h3 {
     background-color: cyan;
     margin:10px;
     padding: 5px;
+=======
+body {
+    padding: 5px;
+}
+
+h1 {
+    text-align: start;
+    font-family:cursive;
+    font-size: 60px;
+    color:white;
+    background-color: black;
+    margin:10px;
+    padding:15px;
+}
+
+span {
+    color:cyan;
+}
+
+h2 {
+    font-weight: 200;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    color:white;
+    background-color: rebeccapurple;
+    margin:10px;
+    padding:15px;
+}
+
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: end;
+    color:black;
+    background-color: cyan;
+    margin:10px;
+    padding: 5px;
+>>>>>>> 47ba43577f73b5123f1fb42481a8c8d97bc5b9b4
 }
