@@ -94,15 +94,15 @@ h6{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
+    width:100px;
 }
 
+
 .text-size{
-    display: flex;
-    justify-content: flex-end;
     margin-bottom: 20px;
     margin-right:55px;
     position: relative;
-    top:15px;
+    bottom:255px;
 }
 
 .text-size a{
