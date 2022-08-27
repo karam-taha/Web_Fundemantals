@@ -257,6 +257,7 @@ ul.middle-page2{
 
 .list-page{
     color: black;
+    margin-top: 10px;
 }
 
 .blue{
@@ -302,4 +303,8 @@ h6{
     top:270px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(113,164,209);
+}
+
+.white-text{
+    text-align: center;
 }
