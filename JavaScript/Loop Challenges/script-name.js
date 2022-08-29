@@ -13,14 +13,14 @@ for(var i=100; i>0; i--){
 }
 
 //3. Print the sequence
-for(var i=4; i>-4; i--){
+for(var i=4; i>-4; i-=1.5){
     console.log(i);
-    i-=(0.5);
+
 }
 
 //4. Sigma
 var sum=0;
-for(var i=1; i<101; i++){
+for(var i=1; i<=100; i++){
     sum+=i;
 }
 console.log(sum);
