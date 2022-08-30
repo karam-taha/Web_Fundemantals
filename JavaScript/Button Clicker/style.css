@@ -11,9 +11,9 @@
     display:flex;
     justify-content: center;
     display: grid;
-    gap:2rem ;
+    gap:1rem ;
     grid-template-columns: auto 6fr 3fr auto;
-    grid-template-rows: 1fr 6fr 6fr;
+    grid-template-rows: 1fr 4fr 4fr;
     grid-template-areas: 
     ". nav-bar nav-bar ."    /*dots = (white space) */
     ". content1 sidebar ."
@@ -32,7 +32,7 @@
 .content1{
     grid-area:content1;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     border: 3px solid black;
 }
@@ -40,7 +40,7 @@
 .content2{
     grid-area:content2;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     border: 3px solid black;
 }
@@ -56,6 +56,7 @@
     display:grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr ;
+    margin-bottom:30px;
 }
 
 .btn1{
@@ -84,6 +85,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 25px;
 }
 
 h1{
@@ -95,6 +97,11 @@ ul{
     flex-direction: column;
     align-items: center;
     list-style: none;
+}
+
+li{
+    display: flex;
+
 }
 
 p{
@@ -116,6 +123,8 @@ h4 span{
 
 input{
     border: 3px solid black;
+width: 250px;
+height:25px;
 }
 
 p{
