@@ -1,13 +1,9 @@
+console.log("page loaded...");
 
+function playVideo(vid) {
+    vid.play();
+}
 
-var x = document.getElementById("myVideo");
-
-function playVid() {
-    x.play();
-    }
-    
-    function pauseVid() {
-    x.pause();
-    }
-    
-// console.log("myVideo");
+function pauseVideo(vid) {
+    vid.pause();
+}
