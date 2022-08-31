@@ -123,3 +123,8 @@ img{
 h3{
     font-size: 24px;
 }
+
+.content img{
+    border: 1px;
+    border-radius: 50%;
+}
