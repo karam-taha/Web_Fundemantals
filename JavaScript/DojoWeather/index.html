@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="DojoWeather.js"></script>
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li><a href="#" onclick="clickAlert()" >Burbank</a></li>
+                <li><a href="#" onclick="clickAlert()" >Chicago</a></li>
+                <li><a href="#" onclick="clickAlert()" >Dallas</a></li>
+            </ul>
+        </div>
+        <div class="second-nav">
+            <h2>San Jose</h2>
+            <div class="right-nav">
+                <label>show temperature in</label>
+                <select name="Temperature">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="content">
+            <div class="today">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="rain">
+                <h4>some rain</h4>
+                <div class="temp-color"><span class="f-number">24°</span> <span class="s-number">18°</span></div>
+            </div>
+            <div class="tomorrow">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="sun">
+                <h4>some sun</h4>
+                <div class="temp-color"><span class="f-number">27°</span> <span class="s-number">19°</span></div>
+            </div>
+            <div class="friday">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="clouds">
+                <h4>some clouds</h4>
+                <div class="temp-color"><span class="f-number">21°</span> <span class="s-number">16°</span></div>
+            </div>
+            <div class="saturday">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="rain">
+                <h4>some sun</h4>
+                <div class="temp-color"><span class="f-number">26°</span> <span class="s-number">21°</span></div>
+            </div>
+        </div>
+        <div class="message">
+            <img src="assets/cookie.png" alt="cookie">
+            <div class="mid-message"> 
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not edible ones) to personalize content and ads, to provide social
+                media features and to analyse our traffic. <a href="#">Read More...</a>
+                </p>
+            </div>
+            <button class="btn" onclick="removeElement(this)">I Accept</button>  
+        </div>
+    </div>
+</body>
+</html>
