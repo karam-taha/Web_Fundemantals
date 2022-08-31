@@ -12,11 +12,12 @@ body{
 }
 
 .container{
-    width: 40%;
+    width: 50%;
     display:flex;
     flex-direction: column;
     gap:50px; 
     flex-wrap: wrap;
+    height:970px;
 }
 
 .nav-bar{
@@ -95,11 +96,8 @@ p{
 }
 
 .profile h1{
-    display:flex;
-    align-items: center;
-    justify-content: center;
     margin:20px;
-    width:200px;
+    width:60%;
 }
 
 img{

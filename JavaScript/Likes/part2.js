@@ -4,6 +4,8 @@ function addLike(id){
     var likesbtn = document.getElementById(id).textContent;
     document.getElementById(id).textContent= ++likesbtn;
 }
+
+
 //if we want to use multiple buttons we use id and go to the [onclick="addLike('likecount2')"] and type likecount2 inside it instead of empty
 
 
