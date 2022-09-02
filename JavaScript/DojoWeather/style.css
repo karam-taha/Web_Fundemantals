@@ -59,13 +59,22 @@ li a{
     height:50%;
 }
 
-.today, .tomorrow, .friday, .saturday{
+
+.forecast{
     background-color: rgb(238,238,238);
     height:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.temperatures{
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .message{
@@ -105,11 +114,11 @@ img{
     width:100px;
 }
 
-.f-number{
+.high{
     color: red;
 }
 
-.s-number{
+.low{
     color:blue;
 }
 

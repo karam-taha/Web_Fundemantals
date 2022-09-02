@@ -22,7 +22,7 @@
             <h2>San Jose</h2>
             <div class="right-nav">
                 <label>show temperature in</label>
-                <select name="Temperature">
+                <select onchange="changeDegree(this)" name="Temperature">
                     <option>°C</option>
                     <option>°F</option>
                 </select>
@@ -30,29 +30,41 @@
         </div>
         <div class="line"></div>
         <div class="content">
-            <div class="today">
+            <div class="forecast">
                 <h3>Today</h3>
                 <img src="assets/some_rain.png" alt="rain">
                 <h4>some rain</h4>
-                <div class="temp-color"><span class="f-number">24°</span> <span class="s-number">18°</span></div>
+                <p class="temperatures">
+                    <span class="high" id="temp1">24°</span>
+                    <span class="low" id="temp2">18°</span>
+                </p>
             </div>
-            <div class="tomorrow">
+            <div class="forecast">
                 <h3>Tomorrow</h3>
                 <img src="assets/some_sun.png" alt="sun">
                 <h4>some sun</h4>
-                <div class="temp-color"><span class="f-number">27°</span> <span class="s-number">19°</span></div>
+                <p class="temperatures">
+                    <span class="high" id="temp3">27°</span> 
+                    <span class="low" id="temp4">19°</span>
+                </p>
             </div>
-            <div class="friday">
+            <div class="forecast">
                 <h3>Friday</h3>
                 <img src="assets/some_clouds.png" alt="clouds">
                 <h4>some clouds</h4>
-                <div class="temp-color"><span class="f-number">21°</span> <span class="s-number">16°</span></div>
+                <p class="temperatures">
+                    <span class="high" id="temp5">21°</span>
+                    <span class="low" id="temp6">16°</span>
+                </p>
             </div>
-            <div class="saturday">
+            <div class="forecast">
                 <h3>Saturday</h3>
                 <img src="assets/some_sun.png" alt="rain">
                 <h4>some sun</h4>
-                <div class="temp-color"><span class="f-number">26°</span> <span class="s-number">21°</span></div>
+                <p class="temperatures">
+                    <span class="high" id="temp7">26°</span>
+                    <span class="low" id="temp8">21°</span>
+                </p>
             </div>
         </div>
         <div class="message">
@@ -63,7 +75,7 @@
                 media features and to analyse our traffic. <a href="#">Read More...</a>
                 </p>
             </div>
-            <button class="btn" onclick="removeElement(this)">I Accept</button>  
+            <button class="btn" onclick="removeElement()">I Accept</button>
         </div>
     </div>
 </body>
