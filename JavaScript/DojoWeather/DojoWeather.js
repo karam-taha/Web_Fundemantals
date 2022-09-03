@@ -3,7 +3,7 @@
 //         element.remove();
 //     }
 
-    function removeElement(element){
+    function removeElement(){
         var element=document.querySelector(".message")                   // tested using querySelector
         element.remove();
     }
@@ -20,17 +20,31 @@
         return Math.round(5 / 9 * (temp - 32)) + "°";
         
     }
+    // function changeDegree(element) {
+    //     console.log(element.value);
+    //     for(var i=1; i<9; i++) {
+    //         var tempSpan = document.querySelector("#temp" + i);
+    //         var tempVal = parseInt(tempSpan.innerText);
+    //         if(element.value == "°C") {
+    //             tempSpan.innerText = f2c(tempVal);
+    //         } else {
+    //             tempSpan.innerText = c2f(tempVal);
+    //         }
+    //     }
+    // }
+    
+
     function changeDegree(element) {
-        console.log(element.value);
-        for(var i=1; i<9; i++) {
-            var tempSpan = document.querySelector("#temp" + i);
-            var tempVal = parseInt(tempSpan.innerText);
+        var tempSpan = document.querySelectorAll(".temp");
+        tempSpan.forEach((span)=>{
+            var tempVal = parseInt(span.innerText);
             if(element.value == "°C") {
-                tempSpan.innerText = f2c(tempVal);
+                span.innerText = f2c(tempVal);
             } else {
-                tempSpan.innerText = c2f(tempVal);
+                span.innerText = c2f(tempVal);
             }
-        }
+        })
+        
     }
 
     // function changeDegree(){
