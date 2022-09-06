@@ -13,6 +13,21 @@ function alwaysHungry(arr) {
     }
 }
 
+// function alwaysHungry(arr) {
+//     let flag=false;
+//     let i=0;
+//     while(i<arr.length){
+//         if(arr[i]=="food"){
+//             console.log("yummy");                     more optimal
+//             flag=true;
+//         }
+//         i++
+//     }
+//     if(!flag){
+//         console.log("I'm hungry");
+//     }
+// }
+
 alwaysHungry([3.14, "food", "pie", true, "food"]);
 
 alwaysHungry([4, 1, 5, 7, 2]);
@@ -24,7 +39,7 @@ function highPass(arr, cutoff) {
     var filteredArr = []; x=0;
     for(var i=0; i<arr.length; i++){
         if(arr[i]>cutoff){
-            filteredArr[x] = arr[i];
+            filteredArr[x] = arr[i]; //test to know why filteredArr[i] doesnt work
             x++
         }
         
@@ -41,8 +56,9 @@ function betterThanAverage(arr) {
     var sum = 0;
     for(var i=0; i<arr.length; i++){
         sum+=arr[i];
-        avg=sum/arr.length;
     }
+    avg=sum/arr.length;
+    
     var count = 0
     for(var i=0; i<arr.length; i++){
         if(arr[i]>avg){
@@ -61,10 +77,18 @@ function reverse(arr) {
     var arrNew=[];
     for(var i=arr.length-1; i>=0; i--){
         arrNew.push(arr[i]);
-        
     }
     return arrNew;
 }
+
+// function reverse(arr) {
+//     for(let i=0, j=arr.length-1; i<arr.length/2; i++,j--){               optimal solution
+//         let temp=arr[i];
+//         arr[i]=arr[j];
+//         arr[j]=temp;
+//     }
+//     return arr;
+// }
 
 var result = reverse(["a", "b", "c", "d", "e"]);
 console.log(result); // we expect back ["e", "d", "c", "b", "a"]

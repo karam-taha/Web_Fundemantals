@@ -9,7 +9,7 @@
     display: grid;
     gap:2rem ;
     grid-template-columns: 1fr 500px 500px 1fr;
-    grid-template-rows: 2fr 15fr 10fr 1fr;
+    grid-template-rows: 2fr 15fr 10fr 3fr;
     grid-template-areas: 
     ". title title ."      /*dots = (white space) */
     ". header header ."
